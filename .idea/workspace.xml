@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58d288b-927d-4116-836f-9bbe9ac0f104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Number198/Rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Number213/RobII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,25 +29,25 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="19" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="20" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="java" value="2167" />
+          <entry key="java" value="2786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2167" />
+          <entry key="JAVA" value="2786" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -55,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Number198/Rob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="550">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Number213/RobII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -103,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Number21/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/LeetCode/Number198/Rob.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Number213/RobII.java" />
       </list>
     </option>
   </component>
@@ -196,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577688469899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577690825312" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -221,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rob">
+  <component name="RunManager" selected="Application.RobII">
     <configuration name="ArrayPairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Number561.ArrayPairSum" />
       <module name="LeetCode" />
@@ -261,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Number54.SpiralOrder" />
+    <configuration name="RobII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Number213.RobII" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Number54.*" />
+          <option name="PATTERN" value="LeetCode.Number213.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,19 +298,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.ArrayPairSum" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.MergeTwoLists" />
       <item itemvalue="Application.Rob" />
+      <item itemvalue="Application.RobII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobII" />
         <item itemvalue="Application.Rob" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.ArrayPairSum" />
-        <item itemvalue="Application.SpiralOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -321,18 +331,18 @@
       <workItem from="1577468565862" duration="837000" />
       <workItem from="1577548513107" duration="1920000" />
       <workItem from="1577683022079" duration="583000" />
-      <workItem from="1577683829729" duration="2312000" />
+      <workItem from="1577683829729" duration="4188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11641000" />
+    <option name="totallyTimeSpent" value="13517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,8 +464,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Number198/Rob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="550">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Number213/RobII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
